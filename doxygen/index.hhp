@@ -1,0 +1,53 @@
+[OPTIONS]
+Compiled file=AirPointr_Unity.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=AirPointr - Unity Asset
+
+[WINDOWS]
+main="AirPointr - Unity Asset","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_air_pointr_8cs.html
+_documentation_8dox.html
+class_air_pointr.html
+class_air_pointr-members.html
+class_air_pointr_1_1_event.html
+class_air_pointr_1_1_event-members.html
+dir_9859bb1fda3a84c5999f9592d172b117.html
+dir_62a1101b93b5e4452caa78f102f99cae.html
+index.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+functions_vars.html
+functions_enum.html
+functions_prop.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+airpointr.png
+doc.png
+folderopen.png
+folderclosed.png
+arrowdown.png
+arrowright.png
+splitbar.png
