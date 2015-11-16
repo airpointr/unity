@@ -7,18 +7,29 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=AirPointr - Unity Asset
+Title=Unity Asset
 
 [WINDOWS]
-main="AirPointr - Unity Asset","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="Unity Asset","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
 _air_pointr_8cs.html
 _documentation_8dox.html
+_on_off_8cs.html
+_passthrough_8cs.html
+_screen_pointer_8cs.html
 class_air_pointr.html
 class_air_pointr-members.html
+class_air_pointr_1_1_common.html
+class_air_pointr_1_1_common-members.html
 class_air_pointr_1_1_event.html
 class_air_pointr_1_1_event-members.html
+class_on_off.html
+class_on_off-members.html
+class_passthrough.html
+class_passthrough-members.html
+class_screen_pointer.html
+class_screen_pointer-members.html
 dir_9859bb1fda3a84c5999f9592d172b117.html
 dir_62a1101b93b5e4452caa78f102f99cae.html
 index.html
@@ -45,6 +56,8 @@ bdwn.png
 sync_on.png
 sync_off.png
 airpointr.png
+vr.jpg
+doxy-boot.js
 doc.png
 folderopen.png
 folderclosed.png
