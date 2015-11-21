@@ -67,15 +67,20 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:abd2216c9d4a6d5eace9ca92c941ac0fb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fb">Control</a> { <a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754">Control.None</a>, 
-<a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba1729a56cfc89021478498fe0c89a843a">Control.Visibility</a>, 
-<a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fbacb5feb1b7314637725a2e73bdc9f7295">Control.Color</a>
- }<tr class="memdesc:abd2216c9d4a6d5eace9ca92c941ac0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visibility control.  <a href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fb">More...</a><br /></td></tr>
-<tr class="separator:abd2216c9d4a6d5eace9ca92c941ac0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77209ca1b5c2ee7caf69a03cf86c4d6e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6e">PointerControl</a> { <a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9">PointerControl.NoControl</a>, 
+<a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eabfc02f4a3e01b49787be035be2c50652">PointerControl.VisibeAtMovement</a>, 
+<a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eacc01fc2b39a70e74942247bdf21743ed">PointerControl.ColorChange</a>, 
+<a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea8bcda43732b0928d269955e0f09ff76f">PointerControl.Invisible</a>
+ }<tr class="memdesc:a77209ca1b5c2ee7caf69a03cf86c4d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visibility control.  <a href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6e">More...</a><br /></td></tr>
+<tr class="separator:a77209ca1b5c2ee7caf69a03cf86c4d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a134adfe313dc64b908256b44aee2aca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a134adfe313dc64b908256b44aee2aca6">PointerActivation</a> = true</td></tr>
+<tr class="separator:a134adfe313dc64b908256b44aee2aca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7125b59365b8a16ff83508b36ab66b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a0b7125b59365b8a16ff83508b36ab66b">PassthroughTexture</a> = true</td></tr>
+<tr class="separator:a0b7125b59365b8a16ff83508b36ab66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dcba7f4328f0bec7e2a23d9156f84b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47">AirPointr.Common.ProjectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a5dcba7f4328f0bec7e2a23d9156f84b7">mode</a></td></tr>
 <tr class="memdesc:a5dcba7f4328f0bec7e2a23d9156f84b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Pointers Projection Mode. Must not be changed after start.  <a href="#a5dcba7f4328f0bec7e2a23d9156f84b7">More...</a><br /></td></tr>
 <tr class="separator:a5dcba7f4328f0bec7e2a23d9156f84b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -85,9 +90,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad54ae06b38bdf051ef7eac5a481b4fe7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#ad54ae06b38bdf051ef7eac5a481b4fe7">DefinedHeight</a> = 0</td></tr>
 <tr class="memdesc:ad54ae06b38bdf051ef7eac5a481b4fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The defined height, if mode was set to DefinedSize.  <a href="#ad54ae06b38bdf051ef7eac5a481b4fe7">More...</a><br /></td></tr>
 <tr class="separator:ad54ae06b38bdf051ef7eac5a481b4fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07db42438d2c22f9caa8ae8b91c631ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fb">Control</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a07db42438d2c22f9caa8ae8b91c631ca">VisibiltyControl</a> = <a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754">Control.None</a></td></tr>
-<tr class="memdesc:a07db42438d2c22f9caa8ae8b91c631ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup visibility control.  <a href="#a07db42438d2c22f9caa8ae8b91c631ca">More...</a><br /></td></tr>
-<tr class="separator:a07db42438d2c22f9caa8ae8b91c631ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e10331d4fba45583638749582dc9ccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6e">PointerControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_screen_pointer.html#a3e10331d4fba45583638749582dc9ccf">PointerVisibility</a> = <a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9">PointerControl.NoControl</a></td></tr>
+<tr class="memdesc:a3e10331d4fba45583638749582dc9ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup visibility control.  <a href="#a3e10331d4fba45583638749582dc9ccf">More...</a><br /></td></tr>
+<tr class="separator:a3e10331d4fba45583638749582dc9ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Control a pointer on the screen. Provides projection modes for GearVR and Cardboard. </p>
@@ -102,7 +107,7 @@ Public Attributes</h2></td></tr>
 <li>You can set them by Drag&amp;Drop or select either 'Main Camera Left/Right' or 'Camera Left/Right' according to the Cardboard-Prefab you use. </li>
 </ul>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="abd2216c9d4a6d5eace9ca92c941ac0fb"></a>
+<a class="anchor" id="a77209ca1b5c2ee7caf69a03cf86c4d6e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -110,7 +115,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fb">ScreenPointer.Control</a></td>
+          <td class="memname">enum <a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6e">ScreenPointer.PointerControl</a></td>
         </tr>
       </table>
   </td>
@@ -122,14 +127,17 @@ Public Attributes</h2></td></tr>
 
 <p>Visibility control. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9"></a>NoControl&#160;</td><td class="fielddoc">
 <p>Do not change the visibility e.g. another script controls visibility. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abd2216c9d4a6d5eace9ca92c941ac0fba1729a56cfc89021478498fe0c89a843a"></a>Visibility&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a77209ca1b5c2ee7caf69a03cf86c4d6eabfc02f4a3e01b49787be035be2c50652"></a>VisibeAtMovement&#160;</td><td class="fielddoc">
 <p>Show or hide the pointer. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abd2216c9d4a6d5eace9ca92c941ac0fbacb5feb1b7314637725a2e73bdc9f7295"></a>Color&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a77209ca1b5c2ee7caf69a03cf86c4d6eacc01fc2b39a70e74942247bdf21743ed"></a>ColorChange&#160;</td><td class="fielddoc">
 <p>Change color to grey. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a77209ca1b5c2ee7caf69a03cf86c4d6ea8bcda43732b0928d269955e0f09ff76f"></a>Invisible&#160;</td><td class="fielddoc">
+<p>Make the Pointer invisible at all times (if you just want to use the Position) </p>
 </td></tr>
 </table>
 
@@ -178,12 +186,36 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a07db42438d2c22f9caa8ae8b91c631ca"></a>
+<a class="anchor" id="a0b7125b59365b8a16ff83508b36ab66b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fb">Control</a> ScreenPointer.VisibiltyControl = <a class="el" href="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754">Control.None</a></td>
+          <td class="memname">bool ScreenPointer.PassthroughTexture = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a134adfe313dc64b908256b44aee2aca6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScreenPointer.PointerActivation = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e10331d4fba45583638749582dc9ccf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6e">PointerControl</a> ScreenPointer.PointerVisibility = <a class="el" href="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9">PointerControl.NoControl</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

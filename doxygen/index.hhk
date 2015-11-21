@@ -25,10 +25,12 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a1eaf07b7a8b9257712e72deb0b2e25a9"><param name="Name" value="hasPointerMotion"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#ac431c9ed442bfab141566a78edead852"><param name="Name" value="isCircleClockwise"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#abfd2ca921a0c0b919c652018df012649"><param name="Name" value="isCircleCounterClockwise"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#af154be7c11ef0d0216309d713f423fd9"><param name="Name" value="isOutOfBorder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a1cc18718c58f56ae5bd0fe5f70d7126d"><param name="Name" value="isPointerInBorder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a623b84eab85a3489ee566de5d61f2e4a"><param name="Name" value="leftSwipe"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a42e197fbee8c3504e6939e1c0995fd9d"><param name="Name" value="pointerX"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a330a3c291c9482eafc935764760b27ab"><param name="Name" value="pointerY"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#afa1b37e8e1571b0b282a2c220a737b4a"><param name="Name" value="reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a9a19d3e821df93eb11293ed12a30298c"><param name="Name" value="rightSwipe"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html"><param name="Name" value="AirPointr"></OBJECT>
   <UL>
@@ -54,6 +56,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad3f2c2471ce46b4793d85eed94ce2a5dae99180abf47a8b3a856e0bcb2656990a"><param name="Name" value="Paused"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad1fd5b0cb3886ef29b2f886ee32b9d3d"><param name="Name" value="Pointer"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a21c87528dd415fe9b087052950c599c9"><param name="Name" value="PointerBorder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a8f9f9467d6161e7babaee400d10f219e"><param name="Name" value="PointerBorderWidth"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a432b82c3c819ddc309ac22c91e30c97e"><param name="Name" value="PointerEnabled"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ac64d888ac8fc97226418e69401bc49f0"><param name="Name" value="PointerSmoothing"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad3f2c2471ce46b4793d85eed94ce2a5da5bda814c4aedb126839228f1a3d92f09"><param name="Name" value="Running"></OBJECT>
@@ -61,6 +64,10 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a08fe671ad1db4800b6ffb3e9a23c4094"><param name="Name" value="Status"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#abca3ad806f9d9d91b33b5d4a8f0a3f2c"><param name="Name" value="StopAirPointr"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a505a83f220c02df2f85c3810cd9ceb38"><param name="Name" value="Success"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#afd528b909416d78679488a558fcabe4e"><param name="Name" value="SwipeLeft"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ac8c13b18ab5f57258cbfd7977a6f341d"><param name="Name" value="SwipeRight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a319989e21040bf123779d05693a4644d"><param name="Name" value="SwipesLeftEnabled"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a443d499f356a3b0dcd531a3ca44e625a"><param name="Name" value="SwipesRightEnabled"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a9541eb2348d883dd8e32ae0420274c4c"><param name="Name" value="TimedOut"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0abfaef30f1c8011c5cefa38ae470fb7aa"><param name="Name" value="UnknownError"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a6f3647bbfbc5546890dd70d94c313198ae2faa2a74b6a4134d0b3e84c7c0e2a01"><param name="Name" value="Webcam"></OBJECT>
@@ -75,7 +82,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a118df7483f45cb4dee74fb5b52eef94a"><param name="Name" value="circleCenterX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#aecbd370eff43c456e16ee83bf0da0abc"><param name="Name" value="circleCenterY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#acf5a00dfa3cb23756e7b5023bdf67b16"><param name="Name" value="circleRadius"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fbacb5feb1b7314637725a2e73bdc9f7295"><param name="Name" value="Color"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eacc01fc2b39a70e74942247bdf21743ed"><param name="Name" value="ColorChange"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a62d83d182dcdfb5a4ab0f16937c69546"><param name="Name" value="ContinuousDetectionEnabled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#ad54ae06b38bdf051ef7eac5a481b4fe7"><param name="Name" value="DefinedHeight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47a3bf3dd606dfb225dfee9cbdfc413a2c3"><param name="Name" value="DefinedSize"></OBJECT>
@@ -92,12 +99,14 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0ad19e0242c51b633ff754f5b3c032f9bf"><param name="Name" value="InUse"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a253ca7dd096ee0956cccee4d376cab8b"><param name="Name" value="InvalidArgument"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a4134a10decc371dc5ae08375e5492eab"><param name="Name" value="InvalidLicense"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea8bcda43732b0928d269955e0f09ff76f"><param name="Name" value="Invisible"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#ac431c9ed442bfab141566a78edead852"><param name="Name" value="isCircleClockwise"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#abfd2ca921a0c0b919c652018df012649"><param name="Name" value="isCircleCounterClockwise"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#af154be7c11ef0d0216309d713f423fd9"><param name="Name" value="isOutOfBorder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a1cc18718c58f56ae5bd0fe5f70d7126d"><param name="Name" value="isPointerInBorder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a623b84eab85a3489ee566de5d61f2e4a"><param name="Name" value="leftSwipe"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_on_off.html#a95cbcd9d6d7abb0efeadda7cb674b5b7a64af4efd7f41b4fae312444de6bd76f4"><param name="Name" value="LockBackground"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a5dcba7f4328f0bec7e2a23d9156f84b7"><param name="Name" value="mode"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754"><param name="Name" value="None"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9"><param name="Name" value="NoControl"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a53a0d7ee3a4bdf48d21a636189695cf4"><param name="Name" value="NoResult"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a38c300f4fc9ce8a77aad4a30de05cad8"><param name="Name" value="NotFound"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a997ca4ce119685f40f03a9a8a6c5346e"><param name="Name" value="NotImplemented"></OBJECT>
@@ -115,25 +124,33 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_passthrough.html#aaf14b353fb18e694d8c8e348f32a26b0"><param name="Name" value="ShowFramesPerSecond"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#acb68a5c7e5cf3104c33ff6cf81c43473"><param name="Name" value="PassthroughEnabled"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a0b7125b59365b8a16ff83508b36ab66b"><param name="Name" value="PassthroughTexture"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad3f2c2471ce46b4793d85eed94ce2a5dae99180abf47a8b3a856e0bcb2656990a"><param name="Name" value="Paused"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad1fd5b0cb3886ef29b2f886ee32b9d3d"><param name="Name" value="Pointer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a134adfe313dc64b908256b44aee2aca6"><param name="Name" value="PointerActivation"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a21c87528dd415fe9b087052950c599c9"><param name="Name" value="PointerBorder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a8f9f9467d6161e7babaee400d10f219e"><param name="Name" value="PointerBorderWidth"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a432b82c3c819ddc309ac22c91e30c97e"><param name="Name" value="PointerEnabled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_common.html#a5350d65c8c2037565da640d4e41e5799"><param name="Name" value="PointerInside"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ac64d888ac8fc97226418e69401bc49f0"><param name="Name" value="PointerSmoothing"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a3e10331d4fba45583638749582dc9ccf"><param name="Name" value="PointerVisibility"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a42e197fbee8c3504e6939e1c0995fd9d"><param name="Name" value="pointerX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a330a3c291c9482eafc935764760b27ab"><param name="Name" value="pointerY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#afa1b37e8e1571b0b282a2c220a737b4a"><param name="Name" value="reset"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_event.html#a9a19d3e821df93eb11293ed12a30298c"><param name="Name" value="rightSwipe"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ad3f2c2471ce46b4793d85eed94ce2a5da5bda814c4aedb126839228f1a3d92f09"><param name="Name" value="Running"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html"><param name="Name" value="ScreenPointer"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fbacb5feb1b7314637725a2e73bdc9f7295"><param name="Name" value="Color"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eacc01fc2b39a70e74942247bdf21743ed"><param name="Name" value="ColorChange"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#ad54ae06b38bdf051ef7eac5a481b4fe7"><param name="Name" value="DefinedHeight"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a0a539650c53e13d2abbfe5916f7ce7ee"><param name="Name" value="DefinedWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea8bcda43732b0928d269955e0f09ff76f"><param name="Name" value="Invisible"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a5dcba7f4328f0bec7e2a23d9156f84b7"><param name="Name" value="mode"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba6adf97f83acf6453d4a6a4b1070f3754"><param name="Name" value="None"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba1729a56cfc89021478498fe0c89a843a"><param name="Name" value="Visibility"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a07db42438d2c22f9caa8ae8b91c631ca"><param name="Name" value="VisibiltyControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6ea7d502b1e122378ff30435b39ffce79b9"><param name="Name" value="NoControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a0b7125b59365b8a16ff83508b36ab66b"><param name="Name" value="PassthroughTexture"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a134adfe313dc64b908256b44aee2aca6"><param name="Name" value="PointerActivation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a3e10331d4fba45583638749582dc9ccf"><param name="Name" value="PointerVisibility"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eabfc02f4a3e01b49787be035be2c50652"><param name="Name" value="VisibeAtMovement"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47a6486ad0a1516a9c92539d7b236fcdc4f"><param name="Name" value="ScreenSize"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_passthrough.html#aaf14b353fb18e694d8c8e348f32a26b0"><param name="Name" value="ShowFramesPerSecond"></OBJECT>
@@ -142,10 +159,13 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a08fe671ad1db4800b6ffb3e9a23c4094"><param name="Name" value="Status"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#abca3ad806f9d9d91b33b5d4a8f0a3f2c"><param name="Name" value="StopAirPointr"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a505a83f220c02df2f85c3810cd9ceb38"><param name="Name" value="Success"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#afd528b909416d78679488a558fcabe4e"><param name="Name" value="SwipeLeft"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#ac8c13b18ab5f57258cbfd7977a6f341d"><param name="Name" value="SwipeRight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a319989e21040bf123779d05693a4644d"><param name="Name" value="SwipesLeftEnabled"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a443d499f356a3b0dcd531a3ca44e625a"><param name="Name" value="SwipesRightEnabled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a9541eb2348d883dd8e32ae0420274c4c"><param name="Name" value="TimedOut"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0abfaef30f1c8011c5cefa38ae470fb7aa"><param name="Name" value="UnknownError"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#abd2216c9d4a6d5eace9ca92c941ac0fba1729a56cfc89021478498fe0c89a843a"><param name="Name" value="Visibility"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a07db42438d2c22f9caa8ae8b91c631ca"><param name="Name" value="VisibiltyControl"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_screen_pointer.html#a77209ca1b5c2ee7caf69a03cf86c4d6eabfc02f4a3e01b49787be035be2c50652"><param name="Name" value="VisibeAtMovement"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_air_pointr.html#a6f3647bbfbc5546890dd70d94c313198ae2faa2a74b6a4134d0b3e84c7c0e2a01"><param name="Name" value="Webcam"></OBJECT>
 </UL>
 </BODY>
