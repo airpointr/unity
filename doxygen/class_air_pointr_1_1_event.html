@@ -77,12 +77,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a388a2017d6367434ae3a91323c3a0681"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a388a2017d6367434ae3a91323c3a0681">didUpdateThisFrame</a> = false</td></tr>
 <tr class="memdesc:a388a2017d6367434ae3a91323c3a0681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Was the event updated since the last frame.  <a href="#a388a2017d6367434ae3a91323c3a0681">More...</a><br /></td></tr>
 <tr class="separator:a388a2017d6367434ae3a91323c3a0681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a623b84eab85a3489ee566de5d61f2e4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a623b84eab85a3489ee566de5d61f2e4a">leftSwipe</a> = false</td></tr>
-<tr class="memdesc:a623b84eab85a3489ee566de5d61f2e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A left wipe has been recognized.  <a href="#a623b84eab85a3489ee566de5d61f2e4a">More...</a><br /></td></tr>
-<tr class="separator:a623b84eab85a3489ee566de5d61f2e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a19d3e821df93eb11293ed12a30298c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a9a19d3e821df93eb11293ed12a30298c">rightSwipe</a> = false</td></tr>
-<tr class="memdesc:a9a19d3e821df93eb11293ed12a30298c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A right wipe has been recognized.  <a href="#a9a19d3e821df93eb11293ed12a30298c">More...</a><br /></td></tr>
-<tr class="separator:a9a19d3e821df93eb11293ed12a30298c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980270dc76fda8ef240233a702084ccf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a980270dc76fda8ef240233a702084ccf">isLeftSwipe</a> = false</td></tr>
+<tr class="memdesc:a980270dc76fda8ef240233a702084ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">A left wipe has been recognized.  <a href="#a980270dc76fda8ef240233a702084ccf">More...</a><br /></td></tr>
+<tr class="separator:a980270dc76fda8ef240233a702084ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f13601513519b71514681a15e89075"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#ab9f13601513519b71514681a15e89075">isRightSwipe</a> = false</td></tr>
+<tr class="memdesc:ab9f13601513519b71514681a15e89075"><td class="mdescLeft">&#160;</td><td class="mdescRight">A right wipe has been recognized.  <a href="#ab9f13601513519b71514681a15e89075">More...</a><br /></td></tr>
+<tr class="separator:ab9f13601513519b71514681a15e89075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eaf07b7a8b9257712e72deb0b2e25a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a1eaf07b7a8b9257712e72deb0b2e25a9">hasPointerMotion</a> = false</td></tr>
 <tr class="memdesc:a1eaf07b7a8b9257712e72deb0b2e25a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has the pointer be moved significantly?  <a href="#a1eaf07b7a8b9257712e72deb0b2e25a9">More...</a><br /></td></tr>
 <tr class="separator:a1eaf07b7a8b9257712e72deb0b2e25a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,6 +251,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a980270dc76fda8ef240233a702084ccf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AirPointr.Event.isLeftSwipe = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A left wipe has been recognized. </p>
+
+</div>
+</div>
 <a class="anchor" id="a1cc18718c58f56ae5bd0fe5f70d7126d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -266,17 +280,17 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a623b84eab85a3489ee566de5d61f2e4a"></a>
+<a class="anchor" id="ab9f13601513519b71514681a15e89075"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AirPointr.Event.leftSwipe = false</td>
+          <td class="memname">bool AirPointr.Event.isRightSwipe = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A left wipe has been recognized. </p>
+<p>A right wipe has been recognized. </p>
 
 </div>
 </div>
@@ -307,20 +321,6 @@ Public Attributes</h2></td></tr>
 
 <p>Pointer coordinates normalized [0..1]. Top-left corner is (0, 0). </p>
 <p>Only valid if hasPointer is set to true. </p>
-
-</div>
-</div>
-<a class="anchor" id="a9a19d3e821df93eb11293ed12a30298c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AirPointr.Event.rightSwipe = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A right wipe has been recognized. </p>
 
 </div>
 </div>

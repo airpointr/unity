@@ -81,9 +81,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5350d65c8c2037565da640d4e41e5799"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_common.html#a5350d65c8c2037565da640d4e41e5799">PointerInside</a> (Vector3 pointerPos, Vector2[] corners)</td></tr>
 <tr class="memdesc:a5350d65c8c2037565da640d4e41e5799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the Pointer position is inside a given Volume, specified by its World corners.  <a href="#a5350d65c8c2037565da640d4e41e5799">More...</a><br /></td></tr>
 <tr class="separator:a5350d65c8c2037565da640d4e41e5799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea03f50cf6cf18b66de24a3b474acf95"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_common.html#aea03f50cf6cf18b66de24a3b474acf95">getPositionOnScreen</a> (<a class="el" href="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47">AirPointr.Common.ProjectionMode</a> mode, float w, float h)</td></tr>
-<tr class="memdesc:aea03f50cf6cf18b66de24a3b474acf95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="class_air_pointr.html" title="AirPointr uses the built-in camera to recognize your hand and provide the information as Unity input ...">AirPointr</a> in Screen Space Coordinates according to the Projection Mode.  <a href="#aea03f50cf6cf18b66de24a3b474acf95">More...</a><br /></td></tr>
-<tr class="separator:aea03f50cf6cf18b66de24a3b474acf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1119d68626a11e009ef88b87ce17838b"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_common.html#a1119d68626a11e009ef88b87ce17838b">GetPositionOnScreen</a> (<a class="el" href="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47">AirPointr.Common.ProjectionMode</a> mode, float w, float h)</td></tr>
+<tr class="memdesc:a1119d68626a11e009ef88b87ce17838b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="class_air_pointr.html" title="AirPointr uses the built-in camera to recognize your hand and provide the information as Unity input ...">AirPointr</a> in Screen Space Coordinates according to the Projection Mode.  <a href="#a1119d68626a11e009ef88b87ce17838b">More...</a><br /></td></tr>
+<tr class="separator:a1119d68626a11e009ef88b87ce17838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa164bcc5545d51fb13ac8dc02c935cdb"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_common.html#aa164bcc5545d51fb13ac8dc02c935cdb">GetGameObjectInChildren</a> (GameObject start, string name)</td></tr>
+<tr class="memdesc:aa164bcc5545d51fb13ac8dc02c935cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function returning a specific game Object searched by name in child down traversion. If there are multiple game Objects with the same name, this function w  <a href="#aa164bcc5545d51fb13ac8dc02c935cdb">More...</a><br /></td></tr>
+<tr class="separator:aa164bcc5545d51fb13ac8dc02c935cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_air_pointr_1_1_common.html" title="Common helper functions and States. ">Common</a> helper functions and States. </p>
@@ -125,7 +128,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aea03f50cf6cf18b66de24a3b474acf95"></a>
+<a class="anchor" id="aa164bcc5545d51fb13ac8dc02c935cdb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -133,7 +136,51 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Vector3 AirPointr.Common.getPositionOnScreen </td>
+          <td class="memname">static GameObject AirPointr.Common.GetGameObjectInChildren </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function returning a specific game Object searched by name in child down traversion. If there are multiple game Objects with the same name, this function w </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>the game object from which the traversion starts.</td></tr>
+    <tr><td class="paramname">name</td><td>the name of the geame Object to be found.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the game Object with the given name or null if nothing found.</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1119d68626a11e009ef88b87ce17838b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 AirPointr.Common.GetPositionOnScreen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_air_pointr_1_1_common.html#a91eedf47453c9dda6e0b46999eea0f47">AirPointr.Common.ProjectionMode</a>&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
