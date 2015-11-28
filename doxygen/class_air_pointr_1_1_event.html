@@ -104,6 +104,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a330a3c291c9482eafc935764760b27ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a330a3c291c9482eafc935764760b27ab">pointerY</a> = 0</td></tr>
 <tr class="memdesc:a330a3c291c9482eafc935764760b27ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer coordinates normalized [0..1]. Top-left corner is (0, 0).  <a href="#a330a3c291c9482eafc935764760b27ab">More...</a><br /></td></tr>
 <tr class="separator:a330a3c291c9482eafc935764760b27ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af047e5bfc224893ebb24b016d3cf1063"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#af047e5bfc224893ebb24b016d3cf1063">hasCircle</a> = false</td></tr>
+<tr class="memdesc:af047e5bfc224893ebb24b016d3cf1063"><td class="mdescLeft">&#160;</td><td class="mdescRight">A circle has been detected.  <a href="#af047e5bfc224893ebb24b016d3cf1063">More...</a><br /></td></tr>
+<tr class="separator:af047e5bfc224893ebb24b016d3cf1063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7468f4f9dd10fff24eda0eacbe4a97a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a7468f4f9dd10fff24eda0eacbe4a97a6">circleTurns</a> = 0</td></tr>
+<tr class="memdesc:a7468f4f9dd10fff24eda0eacbe4a97a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of turns since the circle has been detected the first time.  <a href="#a7468f4f9dd10fff24eda0eacbe4a97a6">More...</a><br /></td></tr>
+<tr class="separator:a7468f4f9dd10fff24eda0eacbe4a97a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09eaf7dab392273d2c3fa0cb7c5801eb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a09eaf7dab392273d2c3fa0cb7c5801eb">circleAngle</a> = 0</td></tr>
+<tr class="memdesc:a09eaf7dab392273d2c3fa0cb7c5801eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Circle angle between 0 .. 360 starting from 3 o'clock position clockwise.  <a href="#a09eaf7dab392273d2c3fa0cb7c5801eb">More...</a><br /></td></tr>
+<tr class="separator:a09eaf7dab392273d2c3fa0cb7c5801eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7e07406e8ad880cc8dc940fac28f68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a0f7e07406e8ad880cc8dc940fac28f68">circleSegment</a> = 0</td></tr>
+<tr class="memdesc:a0f7e07406e8ad880cc8dc940fac28f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Circle segment.  <a href="#a0f7e07406e8ad880cc8dc940fac28f68">More...</a><br /></td></tr>
+<tr class="separator:a0f7e07406e8ad880cc8dc940fac28f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a118df7483f45cb4dee74fb5b52eef94a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr_1_1_event.html#a118df7483f45cb4dee74fb5b52eef94a">circleCenterX</a> = 0</td></tr>
 <tr class="memdesc:a118df7483f45cb4dee74fb5b52eef94a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Circle center position.  <a href="#a118df7483f45cb4dee74fb5b52eef94a">More...</a><br /></td></tr>
 <tr class="separator:a118df7483f45cb4dee74fb5b52eef94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +147,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a09eaf7dab392273d2c3fa0cb7c5801eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AirPointr.Event.circleAngle = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Circle angle between 0 .. 360 starting from 3 o'clock position clockwise. </p>
+
+</div>
+</div>
 <a class="anchor" id="a118df7483f45cb4dee74fb5b52eef94a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,6 +206,35 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0f7e07406e8ad880cc8dc940fac28f68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AirPointr.Event.circleSegment = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Circle segment. </p>
+<p>East = 0, South-East = 1, South = 2, South-West = 3, West = 4, North-West = 5, North = 6, North-East = 7. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7468f4f9dd10fff24eda0eacbe4a97a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AirPointr.Event.circleTurns = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of turns since the circle has been detected the first time. </p>
+
+</div>
+</div>
 <a class="anchor" id="a388a2017d6367434ae3a91323c3a0681"></a>
 <div class="memitem">
 <div class="memproto">
@@ -191,6 +246,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Was the event updated since the last frame. </p>
+
+</div>
+</div>
+<a class="anchor" id="af047e5bfc224893ebb24b016d3cf1063"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AirPointr.Event.hasCircle = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A circle has been detected. </p>
 
 </div>
 </div>

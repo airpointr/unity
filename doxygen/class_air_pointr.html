@@ -90,7 +90,8 @@ Public Types</h2></td></tr>
 <a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0abfaef30f1c8011c5cefa38ae470fb7aa">ErrorCode.UnknownError</a> = -4091, 
 <br />
 &#160;&#160;<a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a9541eb2348d883dd8e32ae0420274c4c">ErrorCode.TimedOut</a> = -4090, 
-<a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a38c300f4fc9ce8a77aad4a30de05cad8">ErrorCode.NotFound</a> = -4089
+<a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a38c300f4fc9ce8a77aad4a30de05cad8">ErrorCode.NotFound</a> = -4089, 
+<a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0a9ed2d871602556951e39f3cebd08d6cb">ErrorCode.NotSupported</a> = -4088
 <br />
  }<tr class="memdesc:a566d313b10c520b7f8673ecba11bc7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error code.  <a href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0">More...</a><br /></td></tr>
 <tr class="separator:a566d313b10c520b7f8673ecba11bc7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +131,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a21c87528dd415fe9b087052950c599c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#a21c87528dd415fe9b087052950c599c9">PointerBorder</a> = 0.02f</td></tr>
 <tr class="memdesc:a21c87528dd415fe9b087052950c599c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the percentage of inaccessible field separated by borders for the Pointer [0, 1]. Zero means no border until Screen edges.  <a href="#a21c87528dd415fe9b087052950c599c9">More...</a><br /></td></tr>
 <tr class="separator:a21c87528dd415fe9b087052950c599c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af138b3f5977498a287ced285c883ab57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#af138b3f5977498a287ced285c883ab57">PointerCircle</a> = true</td></tr>
+<tr class="memdesc:af138b3f5977498a287ced285c883ab57"><td class="mdescLeft">&#160;</td><td class="mdescRight">The circle gesture will enable circle detection as well as the current angle and segment within a circle. Please see <a class="el" href="class_air_pointr_1_1_event.html" title="AirPointr event structure. ">AirPointr.Event</a> for more information.  <a href="#af138b3f5977498a287ced285c883ab57">More...</a><br /></td></tr>
+<tr class="separator:af138b3f5977498a287ced285c883ab57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd528b909416d78679488a558fcabe4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#afd528b909416d78679488a558fcabe4e">SwipeLeft</a> = true</td></tr>
 <tr class="memdesc:afd528b909416d78679488a558fcabe4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable swipe-left gestures.  <a href="#afd528b909416d78679488a558fcabe4e">More...</a><br /></td></tr>
 <tr class="separator:afd528b909416d78679488a558fcabe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +149,6 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:afa0e9b31abb6883e21c87eb13c876b99"><td class="memItemLeft" align="right" valign="top">static AndroidJavaObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#afa0e9b31abb6883e21c87eb13c876b99">CameraHandle</a><code> [get]</code></td></tr>
-<tr class="memdesc:afa0e9b31abb6883e21c87eb13c876b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the Android camera object.  <a href="#afa0e9b31abb6883e21c87eb13c876b99">More...</a><br /></td></tr>
-<tr class="separator:afa0e9b31abb6883e21c87eb13c876b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dacad4f57c0eadfee8c360874e2fe6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_air_pointr.html#a566d313b10c520b7f8673ecba11bc7f0">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#a20dacad4f57c0eadfee8c360874e2fe6">Error</a><code> [get]</code></td></tr>
 <tr class="memdesc:a20dacad4f57c0eadfee8c360874e2fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last error code during processing.  <a href="#a20dacad4f57c0eadfee8c360874e2fe6">More...</a><br /></td></tr>
 <tr class="separator:a20dacad4f57c0eadfee8c360874e2fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +188,9 @@ Properties</h2></td></tr>
 <tr class="memitem:acb68a5c7e5cf3104c33ff6cf81c43473"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#acb68a5c7e5cf3104c33ff6cf81c43473">PassthroughEnabled</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:acb68a5c7e5cf3104c33ff6cf81c43473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable pass-through texture.  <a href="#acb68a5c7e5cf3104c33ff6cf81c43473">More...</a><br /></td></tr>
 <tr class="separator:acb68a5c7e5cf3104c33ff6cf81c43473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedec3386eb4a1d011127b9f97fb3a0f3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_air_pointr.html#aedec3386eb4a1d011127b9f97fb3a0f3">PointerCircleEnabled</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aedec3386eb4a1d011127b9f97fb3a0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable circle gestures.  <a href="#aedec3386eb4a1d011127b9f97fb3a0f3">More...</a><br /></td></tr>
+<tr class="separator:aedec3386eb4a1d011127b9f97fb3a0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_air_pointr.html" title="AirPointr uses the built-in camera to recognize your hand and provide the information as Unity input ...">AirPointr</a> uses the built-in camera to recognize your hand and provide the information as Unity input control. </p>
@@ -273,6 +277,9 @@ Properties</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a566d313b10c520b7f8673ecba11bc7f0a38c300f4fc9ce8a77aad4a30de05cad8"></a>NotFound&#160;</td><td class="fielddoc">
 <p>Not found. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a566d313b10c520b7f8673ecba11bc7f0a9ed2d871602556951e39f3cebd08d6cb"></a>NotSupported&#160;</td><td class="fielddoc">
+<p>Not supported. </p>
 </td></tr>
 </table>
 
@@ -426,6 +433,21 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af138b3f5977498a287ced285c883ab57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AirPointr.PointerCircle = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The circle gesture will enable circle detection as well as the current angle and segment within a circle. Please see <a class="el" href="class_air_pointr_1_1_event.html" title="AirPointr event structure. ">AirPointr.Event</a> for more information. </p>
+<p>The value must not be written by the application. See <a class="el" href="class_air_pointr.html#aedec3386eb4a1d011127b9f97fb3a0f3" title="Enable or disable circle gestures. ">AirPointr.PointerCircleEnabled</a> for runtime configuration. </p>
+
+</div>
+</div>
 <a class="anchor" id="ac64d888ac8fc97226418e69401bc49f0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -515,33 +537,6 @@ Properties</h2></td></tr>
 
 <p>Number of events per second. </p>
 <p>The value should reflect the average camera frame-rate. Because the value is updated with the game frame-rate is absolute value is inaccurate. </p>
-
-</div>
-</div>
-<a class="anchor" id="afa0e9b31abb6883e21c87eb13c876b99"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AndroidJavaObject AirPointr.CameraHandle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Access to the Android camera object. </p>
-<p>Currently this is a android.hardware.Camera object, see <a href="http://developer.android.com/reference/android/hardware/Camera.html">http://developer.android.com/reference/android/hardware/Camera.html</a>. Please read through the Unity documentation how to access Android/Java classes, see <a href="http://docs.unity3d.com/Manual/PluginsForAndroid.html">http://docs.unity3d.com/Manual/PluginsForAndroid.html</a>. The Android camera might not be initialized. Make sure that the object is valid before accessing. A focus lost will result in re-initialization of the camera object, thus the application has to get a new handle. </p>
-<p><b>Any changes to the camera object may result in unexpected behavior during gesture processing.</b> </p>
-<div class="fragment"><div class="line">AndroidJavaObject androidCamera = <a class="code" href="class_air_pointr.html">AirPointr</a>.<a class="code" href="class_air_pointr.html#afa0e9b31abb6883e21c87eb13c876b99">CameraHandle</a>; <span class="comment">// access the handle (may be null)</span></div>
-<div class="line">androidCamera.Call(<span class="stringliteral">&quot;stopPreview&quot;</span>); <span class="comment">// stop the camera preview (no more frames)</span></div>
-</div><!-- fragment --> <dl class="section return"><dt>Returns</dt><dd>Android camera object.</dd></dl>
 
 </div>
 </div>
@@ -683,6 +678,30 @@ SOLUTION: Disable tracking while in a lock-screen scenario. If tracking is disab
 
 <p>Set the pointer border [0 .. 0.05]. </p>
 <p>Border width.</p>
+
+</div>
+</div>
+<a class="anchor" id="aedec3386eb4a1d011127b9f97fb3a0f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AirPointr.PointerCircleEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable circle gestures. </p>
+<p>Please note that the circle gesture requires the pointer to be enabled as well. </p>
+<p><code>true</code> if the circle gesture is enabled; otherwise, <code>false</code>.</p>
 
 </div>
 </div>
