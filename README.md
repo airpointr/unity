@@ -1,6 +1,6 @@
 # AirPointr - Unity Asset
 
-**Touchless gesture input using the built-in camera of your mobile device**
+**Touchless gesture control using the built-in camera of your mobile device**
 
 **AirPointr Unity** is only available from the Unity Asset Store. The GitHub project is used for documentation, discussion and issue-tracking. **AirPointr Pro** is available from <https://airpointr.com/vr-ar>.
 
